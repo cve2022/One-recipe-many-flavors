@@ -1,0 +1,21 @@
+* -text
+
+# Treat LTspice source files as text
+*.asc text
+*.asy text
+*.cir text
+*.net text
+*.sub text
+*.lib text
+*.mod text
+
+# Normalize line endings
+*.asc text eol=lf
+*.asy text eol=lf
+*.cir text eol=lf
+*.sub text eol=lf
+*.lib text eol=lf
+*.mod text eol=lf
+
+# Simulation outputs are binary/non-source artifacts
+*.raw binary

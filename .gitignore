@@ -1,0 +1,30 @@
+# LTspice autosave / backup files
+*.bak
+*.raw
+*.fft
+*.fra
+*.net
+*.log
+
+# LTspice temporary files
+*.tmp
+*.temp
+
+# Simulation output / data
+*.raw
+*.op.raw
+*.ac.raw
+*.tran.raw
+
+# LTspice lock files
+*.asy~
+*.asc~
+*.cir~
+*.sub~
+*.lib~
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
